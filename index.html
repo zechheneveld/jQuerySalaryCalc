@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salary Calculator</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+    <p id="totalSalary">Total Salary</p>
+    <form>
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="number" id="id" placeholder="Enter ID">
+        <input type="number" id="salary" placeholder="Enter Salary">
+    </form>
+
+    <button onclick="submitEmployee()" id="submitBtn">Submit Employee</button>
+    <button onclick="resetBtn()" id="resetBTN">Reset</button>
+
+    <div id="employee"></div>
+</body>
+</html>
